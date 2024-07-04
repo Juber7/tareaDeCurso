@@ -1,12 +1,11 @@
 public class Ingreso extends Dinero {
-    
-    public Ingreso(double ingreso, String descripcion) {
+    public Ingreso(double ingreso, String description) {
         this.setDinero(ingreso);
-        this.setDescription(descripcion);
+        this.setDescription(description);
     }
 
     @Override
     public String toString() {
-        return this.getDescription() + " " + this.getDinero();
+        return this.getDescription() + " " + this.getDinero(); 
     }
 }

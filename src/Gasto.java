@@ -1,8 +1,7 @@
 public class Gasto extends Dinero {
-    
-    public Gasto(double gasto, String descripcion) {
+    public Gasto(double gasto, String description) {
         this.setDinero(gasto);
-        this.setDescription(descripcion);
+        this.setDescription(description);
     }
 
     @Override

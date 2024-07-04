@@ -1,7 +1,6 @@
 abstract class Dinero {
-    
     private double dinero;
-    private String descripcion;
+    private String description;
 
     public double getDinero() {
         return dinero;
@@ -12,10 +11,10 @@ abstract class Dinero {
     }
 
     public String getDescription() {
-        return descripcion;
+        return description;
     }
 
-    public void setDescription(String descripcion) {
-        this.descripcion = descripcion;
+    public void setDescription(String description) {
+        this.description = description;
     }
 }
